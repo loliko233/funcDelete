@@ -2,14 +2,13 @@
  * @Author: TuWenxuan
  * @Date: 2024-06-13 17:12:27
  * @LastEditors: TuWenxuan
- * @LastEditTime: 2024-06-14 10:41:51
+ * @LastEditTime: 2024-06-14 14:37:08
  * @FilePath: /helloworld/src/functionNode.ts
  * @Description: 
  * 
  */
 import { parse } from '@babel/parser';
 import traverse from '@babel/traverse';
-import { get } from 'http';
 
 export interface FuncNode {
   name: string;
