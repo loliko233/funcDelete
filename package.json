@@ -1,9 +1,9 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloWorld",
+  "name": "ReFuncDelete-scarletIvory",
+  "displayName": "ReFuncDelete For scarletIvory",
   "description": "",
-  "type": "module",
   "version": "0.0.1",
+  "publisher": "scarletIvory",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -15,8 +15,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "helloworld.helloWorld",
-        "title": "Hello World"
+        "command": "extension.helloWorld",
+        "title": "Hello"
       }
     ]
   },
